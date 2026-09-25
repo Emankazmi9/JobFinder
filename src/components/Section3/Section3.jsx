@@ -1,7 +1,7 @@
 import Cantainer3 from "./Cantainer3"
-import Jobsearch from '../assests/Jobsearch.png'
-import Thousandjob from '../assests/Thousandjob.png'
-import Applyeasy from '../assests/Applyeasy.png'
+import Jobsearch from '../../assests/Jobsearch.png'
+import Thousandjob from '../../assests/Thousandjob.png'
+import Applyeasy from '../../assests/Applyeasy.png'
 const concontent = [
   {
     img: Jobsearch,

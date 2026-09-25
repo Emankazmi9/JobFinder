@@ -1,8 +1,8 @@
-import logo from '../assests/logo.png'
-import Facebook from '../assests/Facebook.png'
-import Linkdin from '../assests/Linkdin.png'
-import Twiter from '../assests/Twiter.png'
-import instagram from '../assests/instagram.png'
+import logo from '../../assests/logo.png'
+import Facebook from '../../assests/Facebook.png'
+import Linkdin from '../../assests/Linkdin.png'
+import Twiter from '../../assests/Twiter.png'
+import instagram from '../../assests/instagram.png'
 const Footertop = () => {
   return (
     <>

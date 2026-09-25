@@ -1,4 +1,4 @@
-import Heropic from '../assests/Heropic.png'
+import Heropic from '../../assests/Heropic.png'
 const Heroimg = () => {
   return (
     <>

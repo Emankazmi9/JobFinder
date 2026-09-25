@@ -1,8 +1,8 @@
 import Card from "./Card"
-import Frontend from '../assests/Frontend.png'
-import Backend from '../assests/Backend.png'
-import UI from '../assests/UI.png'
-import React from '../assests/React.png'
+import Frontend from '../../assests/Frontend.png'
+import Backend from '../../assests/Backend.png'
+import UI from '../../assests/UI.png'
+import React from '../../assests/React.png'
 const jobopening = [
   {
     title: "Frontend Developer",
