@@ -35,7 +35,7 @@ const jobopening = [
 ];
 const Centercard = () => {
   return (
-    <div className="flex flex-row gap-10 flex-wrap">
+    <div className="flex flex-col md:flex-row gap-6 lg:gap-10 flex-wrap px-4 md:px-10 lg:px-18">
       {jobopening.map((job)=>{
         return(
         < Card key={job.title}  title = {job.title} company={job.company} logo={job.logo} location={job.location} salary={job.salary} />

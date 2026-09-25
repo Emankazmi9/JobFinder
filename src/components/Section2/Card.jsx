@@ -6,7 +6,7 @@ const Card = (props) => {
    
   return (
     <>
-      <div className="h-50 w-120 ml-18 border border-gray-400 rounded-md ">
+     <div className="h-50 w-full md:w-[45%] border border-gray-400 rounded-md">
      <Cardimg
      title={props.title}
      company={props.company}

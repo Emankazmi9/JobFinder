@@ -6,8 +6,8 @@ import instagram from '../../assests/instagram.png'
 const Footertop = () => {
   return (
     <>
-    <div className='flex flex-row  justify-between pt-8 '>
-      <div className='ml-18 '>
+    <div className='flex flex-col md:flex-row justify-between items-center gap-5 pt-8 px-4 md:px-10 lg:px-18'>
+      <div >
        <div className="flex items-center   ">
              <img  className="h-8  w-8  object-cover  " src={logo}></img>
              <h3 className="pl-4 font-semibold text-2xl text-white">Job<span className="text-indigo-600">Finder</span></h3>
@@ -20,7 +20,7 @@ const Footertop = () => {
       <a className="text-slate-400 ">About</a>
       <a className="text-slate-400  ">Companies</a>
     </div>
-      <div className='flex flex-row gap-1 mr-18'>
+      <div className='flex flex-row gap-1'>
         <img  className='h-8 w-8 rounded-full' src={Facebook}></img>
         <img  className='h-8 w-8 rounded-full' src={Linkdin}></img>
         <img  className='h-8 w-8 rounded-full' src={Twiter}></img>
